@@ -17,5 +17,6 @@ def input():
         return redirect(url_for('result'))
     return render_template(input.html, form = form)
 
-@app.route('/result'):
+@app.route('/result')
 def result():
+    pass
